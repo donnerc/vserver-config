@@ -71,6 +71,15 @@ server {
 		include fastcgi_params;
 	}
 
+	location ~ /dokuwiki/(data|conf|bin|inc)/ {
+      		deny all;
+    	}
+
+	location ~ /dw/(data|conf|bin|inc)/ {
+                deny all;
+        }
+	
+
 	# deny access to .htaccess files, if Apache's document root
 	# concurs with nginx's one
 	#
