@@ -4,7 +4,7 @@ nginx_path=/usr/share/nginx/
 owncloud_version=5.0.9
 
 # installation de nginx sous ubuntu 12.04 server
-sudo apt-get install nginx php5-fpm php5 php5-json php5-gd php5-sqlite curl libcurl3 libcurl3-dev php5-curl php5-common php-xml-parser sqlite php-apc
+sudo apt-get install nginx php5-fpm php5 php5-json php5-gd php5-sqlite curl libcurl3 libcurl3-dev php5-curl php5-common php-xml-parser sqlite php-apc php5-mysql
 
 # configuration de nginx
 
