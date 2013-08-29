@@ -22,7 +22,10 @@ server {
 	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
 
 	root /usr/share/nginx/www;
-	index index.html index.htm;
+	
+	# donnerc : il faut rajouter index.php ici pour que les fichiers index.php soient
+	# chargés par défaut.
+	index index.html index.htm index.php;
 
 	# Make site accessible from http://localhost/
 	server_name donner-online.ch www.donner-online.ch;
