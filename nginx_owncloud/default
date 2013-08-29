@@ -101,10 +101,10 @@ server {
 		include /etc/nginx/conf.d/proxy.conf;
 	}
 
-	location /cscircles/  {
-		proxy_pass http://localhost:8000/;
-		include /etc/nginx/conf.d/proxy.conf;
-	}
+#	location /cscircles/  {
+#		proxy_pass http://localhost:8000/;
+#		include /etc/nginx/conf.d/proxy.conf;
+#	}
 	
 
 	# deny access to .htaccess files, if Apache's document root
