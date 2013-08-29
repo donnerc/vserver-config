@@ -1,9 +1,9 @@
 #!/bin/sh
 
-cp -f /etc/php5/fpm/php.ini .
-cp -f /etc/nginx/sites-available/owncloud .
-cp -f /etc/nginx/nginx.conf .
-cp -f /etc/nginx/sites-available/default .
+cp -f php.ini /etc/php5/fpm/
+cp -f owncloud /etc/nginx/sites-available/
+cp -f nginx.conf /etc/nginx/nginx.conf
+cp -f default/etc/nginx/sites-available/
 
-curl "http://donner-online.ch/dokuwiki/doku.php?do=export_code&id=installation_de_nginx&codeblock=0" > install.sh
+
 
